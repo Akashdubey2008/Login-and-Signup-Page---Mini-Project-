@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h2>Create Account</h2>
+
+<input type="text" id="firstName" placeholder="First Name">
+
+<input type="text" id="lastName" placeholder="Last Name">
+
+<input type="date" id="dob">
+
+<input type="email" id="email" placeholder="Email">
+
+<input type="tel" id="phone" placeholder="Phone Number">
+
+<div class="password-box">
+<input type="password" id="password" placeholder="Password">
+<span onclick="togglePassword('password')">👁️</span>
+</div>
+
+<div class="password-box">
+<input type="password" id="confirmPassword" placeholder="Confirm Password">
+<span onclick="togglePassword('confirmPassword')">👁️</span>
+</div>
+
+<button onclick="signup()">Sign Up</button>
+
+<p>Already have an account?
+<a href="index.html">Login</a>
+</p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

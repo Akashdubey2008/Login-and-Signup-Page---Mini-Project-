@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Welcome</h1>
+
+<h2 id="welcome"></h2>
+
+<button onclick="logout()">Logout</button>
+
+</div>
+
+<script>
+
+let user = JSON.parse(localStorage.getItem("loggedInUser"));
+
+if(user){
+document.getElementById("welcome").innerHTML =
+"Hello, " + user.firstName + " " + user.lastName;
+}
+
+function logout(){
+
+localStorage.removeItem("loggedInUser");
+
+window.location.href="index.html";
+
+}
+
+</script>
+
+</body>
+</html>
