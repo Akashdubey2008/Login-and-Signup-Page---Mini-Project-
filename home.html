@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | NovaAuth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button class="theme-toggle" id="themeToggle"
+            type="button" aria-label="Toggle theme">🌙</button>
+
+    <main class="dashboard">
+        <div class="dashboard-card">
+
+            <div class="brand">Nova<span>Auth</span></div>
+
+            <div class="dashboard-icon">✓</div>
+
+            <h1>Welcome, <span id="userName">User</span>!</h1>
+
+            <p>You have successfully logged in to your account.</p>
+
+            <div class="user-info">
+                <span>Full Name</span>
+                <strong id="profileName">User</strong>
+            </div>
+
+            <div class="user-info">
+                <span>Email Address</span>
+                <strong id="userEmail">user@example.com</strong>
+            </div>
+
+            <div class="user-info">
+                <span>Mobile Number</span>
+                <strong id="userMobile">Not available</strong>
+            </div>
+
+            <button id="logoutBtn" class="primary-btn" type="button">
+                Logout
+            </button>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
