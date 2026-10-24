@@ -1,15 +1,21 @@
 Login-and-Signup-Page---Mini-Project-
+
 A responsive Login & Sign Up page built using HTML, CSS, and JavaScript with a clean and interactive UI.
 
 Login & Sign Up Page
+
 A simple and responsive Login & Sign Up page built using HTML, CSS, and JavaScript.
 
 Features
+
 Login & Sign Up forms
 Responsive design
 Interactive UI
 Form validation
+
 Technologies Used
+
+
 HTML
 CSS
 JavaScript
